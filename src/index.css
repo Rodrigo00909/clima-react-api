@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: url("/src/img/clim2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav .brand-logo {
@@ -38,14 +41,31 @@ input[type=text]:not(.browser-default):focus:not([readonly])+label {
   color: white;
 }
 
+.nav-styles {
+  background-color: #333435;
+}
+
 .contenedor-form {
   padding: 3rem 0 1px 0;
-  background-color: #03a9f4;
+
+}
+
+.input2-form {
+  background-color: #ffffffe6;
 }
 
 .mensaje {
   text-align: center;
   font-size: 2rem;
+}
+
+.inputs-form {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: rgba(54, 53, 53, 0.925);
+  border-radius: 6px;
 }
 
 .buscador i {
